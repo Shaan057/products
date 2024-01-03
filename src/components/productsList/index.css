@@ -1,0 +1,44 @@
+.list-item {
+  border: 1px solid red;
+  width: 100%;
+  border-radius: 30px;
+}
+.link {
+  padding: 20px;
+  display: flex;
+  border-radius: 30px;
+  flex-direction: column;
+  border-radius: 30px;
+  text-decoration: none;
+  color: inherit;
+}
+.image {
+  align-self: center;
+  width: 80%;
+  border-radius: 30px;
+}
+
+.title {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(4, 4, 30);
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
+  .image {
+    height: 300px;
+  }
+  .list-item {
+    width: 49%;
+    flex-grow: 1;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .list-item {
+    width: 32%;
+  }
+}

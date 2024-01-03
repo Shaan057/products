@@ -1,0 +1,34 @@
+.bg-container {
+  min-height: calc(100vh - 50px);
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  background-color: grey;
+  width: 100%;
+  height: 50px;
+  color: white;
+}
+
+.products {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.bottom-container {
+  padding-top: 50px;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 0px;
+  list-style: none;
+  gap: 10px;
+}
